@@ -7,6 +7,7 @@ import JasonDuval from "./sections/JasonDuval.jsx";
 import SecondVideo from "./sections/SecondVideo.jsx";
 import LuciaCaminos from "./sections/LuciaCaminos.jsx";
 import PostCard from "./sections/PostCard.jsx";
+import Final from "./sections/Final.jsx";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -21,6 +22,7 @@ const App = () => {
             <SecondVideo/>
             <LuciaCaminos/>
             <PostCard/>
+            <Final/>
         </main>
     )
 }
